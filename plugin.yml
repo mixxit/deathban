@@ -1,0 +1,16 @@
+name: DeathBan
+main: net.gamerservices.deathban.deathban
+version: 0.0.1
+website: http://www.gamerservices.net
+author: Mixxit
+database: true
+description: >
+             Basic deathban functionality.
+             This plugin bans players on death
+commands:
+  revive:
+    aliases: [unban2]
+    description: Revives a character
+    usage: |
+           /<command> [playername]
+           Example: /<command> mixxit
